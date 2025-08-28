@@ -5,7 +5,7 @@ interface_name: GigabitEthernet1
 
 # commit_confirmed timers
 ansible_ios_commit_confirm_immediate: true
-ansible_ios_commit_confirm_timeout: 1
+ansible_ios_commit_confirm_timeout: 35
 
 # ansible timeouts must be 'sane' with respect to commit timeouts
 ansible_command_timeout: 30
